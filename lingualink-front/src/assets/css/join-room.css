@@ -1,0 +1,25 @@
+.join-room{
+    width: 300px;
+    margin:2rem auto;
+}
+
+.join-room .join-room-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.join-room .join-room-form img{
+    width: 200px;
+}
+
+.join-room .join-room-form .join-btn{
+    margin-top: .5rem;
+    border: none;
+    background-color:#0367c5 ;
+    color: white;
+    padding: .5rem 2rem;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+}

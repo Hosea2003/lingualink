@@ -1,0 +1,31 @@
+.payments{
+    display: flex;
+    flex-direction: column;
+}
+
+.payments .payment-component{
+    display: grid;
+    grid-template-columns: auto auto 100px;
+    padding-block: .2rem;
+    border-bottom: 1px solid #d3d3d3;
+    cursor: pointer;
+}
+
+.payments .payment-component:hover{
+    background-color: #E1E8F6;
+}
+
+.payments .payment-component .bold{
+    font-weight: bold;
+}
+
+.billing{
+    display: flex;
+    flex-direction: column;
+}
+
+.billing .total{
+    text-align: right;
+    font-weight: 500;
+    font-size: 14px;
+}

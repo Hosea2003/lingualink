@@ -1,0 +1,72 @@
+.manage-room{
+    background-color: #dbdbdf56;
+    height: calc(100vh - 64px);
+    margin-top: -5px;
+    display: grid;
+    grid-template-columns: 30% auto auto;
+    padding: 1rem;
+    column-gap: .5rem;
+}
+
+.white-card{
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.manage-room .information{
+    display: grid;
+    grid-template-columns: 100px auto;
+    row-gap: .75rem;
+}
+
+.manage-room .information span,
+.manage-room .information .info-label{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.manage-room .information textarea:disabled{
+    background-color: transparent;
+    color: #718cca;
+    border: none;
+}
+
+.manage-room .information{margin-bottom: 1rem;}
+
+.language-component{
+    display: grid;
+    grid-template-columns: auto auto 35px;
+    align-items: last baseline;
+    padding-bottom: .3rem;
+    border-bottom: 1px solid #d3d3d3;
+    margin-top: .2rem;
+}
+
+.language-component .delete-language{
+    border:none;
+    width: 100%;
+    border-radius: 7px;
+    background-color: #2a2a2be0;
+    display: flex;
+    justify-content: center;
+    padding: .2rem;
+    cursor: pointer;
+}
+
+.language-component .delete-language img{
+    width: inherit;
+}
+
+.manage-room .add-language,
+.manage-room .invite-btn{
+    border: none;
+    background-color: #0367c5;
+    padding:.5rem 1.4rem;
+    border-radius: 100vh;
+    color: white;
+}
+
+.manage-room .invited-users{
+    margin-top: 1rem;
+}

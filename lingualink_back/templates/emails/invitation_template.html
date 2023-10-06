@@ -1,0 +1,26 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinguaLink</title>
+    <link rel="stylesheet" href="{%static '/css/invite.css' %}">
+</head>
+<body>
+
+    <style>
+        .join-btn{
+            padding: .5rem 1.2rem;
+            text-decoration: none;
+            color: white;
+            background-color: #339cff;
+        }
+    </style>
+
+    <h1>Hello</h1>
+    <p class="text">You have been invited to join this organization: {{organization_name}} </p>
+    <a href={{redirect_url}} class="join-btn">Join</a>
+</body>
+</html>

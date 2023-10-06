@@ -1,0 +1,36 @@
+.message-component{
+    display: grid;
+    align-items:center;
+    column-gap:.5rem;
+    grid-template-columns: 50px auto;
+    height: fit-content;
+    margin-top: .1rem;
+}
+
+.message-component .profile-picture{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.message-component.sender{
+    display: flex;
+    justify-content: end;
+    margin-top: .1rem;
+}
+
+.message-component .message{
+    max-width: 300px;
+    background-color: #bdbdbe56;
+    padding:.5rem .7rem;
+    border-radius: 100vh;
+    font-size: 14px;
+    color: #606060;
+    width: fit-content;
+    height: fit-content;
+}
+
+.message-component.sender .message{
+    background-color: #29affc;
+    color: white;
+}

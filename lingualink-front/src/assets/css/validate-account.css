@@ -1,0 +1,50 @@
+.validate-account-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.validate-account-form{
+    padding: 2rem 4rem;
+    box-shadow: 1px 2px 2px 1px #d3d3d3;
+    background-color: white;
+}
+
+.validate-account-container .lingua-image{
+    position: absolute;
+    top: 50%;
+    width: 250px;
+    left: 140px;
+    z-index: -10000;
+    transform: translateY(-100%);
+}
+
+.send-code{
+    border: none;
+    background-color: transparent;
+    color: #0367c5;
+    font-weight: 500;
+}
+
+.send-code:hover{
+    text-decoration: underline;
+}
+
+.validate-btn{
+    border: none;
+    font-weight: bold;
+    color: #1e1e1f;
+    background: transparent;
+}
+
+.validate-account-container p{
+    margin: 0;
+}
+
+.validate-account-container .message{
+    font-size: 13px;
+    color: #525151;
+    margin-bottom: .5rem;
+}

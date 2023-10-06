@@ -1,0 +1,43 @@
+.login-wrapper{
+    max-width: 300px;
+    margin: 1rem auto;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap:.5rem;
+}
+
+.login-form .logo{
+    text-align: center;
+}
+
+.login-form .forgot-password{
+    background-color: transparent;
+    border: none;
+    color: #0367c5;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-form .logo img{
+    width: 200px;
+}
+
+.login-btn{
+    background-color: #0367c5;
+    color:white;
+    padding:10px;
+    font-size: 15px;
+    border: none;
+}
+
+.login-form .sign-up{
+    margin: 0px auto;
+}
+
+.login-form .sign-up .sign-up-link{
+    color: #0367c5;
+    text-decoration: none;
+}

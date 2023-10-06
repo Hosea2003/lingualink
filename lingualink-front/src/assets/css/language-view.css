@@ -1,0 +1,35 @@
+.language{
+    display: flex;
+    flex-direction: row;
+    margin-block: .5rem;
+    align-items: center;
+}
+
+.language .info{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.language .language-name{
+    font-weight: 500;
+}
+
+.language .translator-info .link{
+    text-decoration: none;
+    color:#8a8989;
+    font-size: 14px;
+}
+
+.language .join-btn{
+    width: fit-content;
+    font-size: 14px;
+    color: white;
+    border-radius: 100vh;
+    padding:7px 15px;
+    background-color: #0367c5;
+    border: none;
+    margin-top: .5rem;
+    grid-row: 1 / 2;
+    cursor: pointer;
+}

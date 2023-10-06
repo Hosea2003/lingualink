@@ -1,0 +1,62 @@
+.create-organization{
+    display: grid;
+    grid-template-columns: 6rem 250px;
+    row-gap: 1rem;
+}
+
+.create-organization .label{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.organization-picture{
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    position: relative;
+}
+
+.organization-picture img{
+    width: 100%;
+}
+
+.organization-picture #pic{
+    display: none;
+}
+
+.organization-picture label{
+    font-size: 13px;
+    color: #fcfafa;
+    padding: .5rem .7rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 100%; */
+    /* height: 100%; */
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .3);
+    justify-content: center;
+}
+
+.create-organization .invite-labels{
+    display: flex;
+    flex-direction: column;
+}
+
+.create-organization .invite-labels .invited{
+    font-size: 13px;
+    color: #7a7979;
+}
+
+.create-organization button{
+    border: none;
+    padding: .6rem 1.3rem;
+    background: #0367c5;
+    color: white;
+    border-radius: 100vh;
+    grid-column-start: 2;
+    width: fit-content;
+}

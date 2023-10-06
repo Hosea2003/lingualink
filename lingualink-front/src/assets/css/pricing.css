@@ -1,0 +1,46 @@
+.pricing{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.prices{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:1rem;
+    justify-content: center;
+    padding:1rem;
+    margin-top: 1rem;
+}
+
+.intervall{
+    display: flex;
+    margin:0 auto;
+    align-items: center;
+    gap:1rem;
+}
+
+.payment-success{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.payment-success .wrapped{
+    padding: 1rem 5rem;
+    border-radius: 10px;
+    box-shadow: 2px 1px 3px 2px #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payment-success .wrapped .back-to-home{
+    text-decoration: none;
+    padding: .5rem;
+    color: white;
+    background-color: green;
+    margin-top: 1rem;
+    border-radius: 10px;
+}

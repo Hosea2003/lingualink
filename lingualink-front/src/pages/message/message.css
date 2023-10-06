@@ -1,0 +1,73 @@
+.messages-wrapper{
+    display: flex;
+    padding: 10px;
+    gap: 1rem;
+    background-color: #e3e3e656;
+    height: calc(100vh - 90px);
+    overflow: hidden;
+}
+
+.users-list{
+    width: 300px;
+    flex-basis: 1;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-message{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    flex: 1;
+}
+
+.users-list .list{
+    margin-top: .5rem;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.user-list-item{
+    text-decoration: none;
+    color:black;
+}
+
+.user-list-item.active{
+    background-color: red;
+}
+
+.private-message{
+    flex-basis: 1;
+    flex: 1;
+}
+
+.message-profil{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.message-profil .image{
+    height: 200px;
+    border-radius: 10px;
+}
+
+.message-profil .personal-info{
+    display: grid;
+    grid-template-columns: 75px auto;
+}
+
+.message-profil .personal-info .label{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.message-profil .personal-info .value{
+    font-size: 14px;
+    color: #2c7efa;
+}

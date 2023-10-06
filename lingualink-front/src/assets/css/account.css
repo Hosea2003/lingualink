@@ -1,0 +1,91 @@
+.account{
+    margin: .7rem auto;
+    display: flex;
+    width: 80%;
+    position: relative;
+}
+
+.account-navbar{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 1rem;
+    position: fixed;
+}
+
+.account .account-pages{
+    margin-left: 12rem;
+    flex: 1;
+    overflow: hidden;
+    height: 100%;
+}
+
+.account-link{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #707070;
+    border-radius: 30px;
+    padding: .7rem .6rem;
+    text-align: center;
+}
+
+.account-link.active{
+    background-color: #E1E8F6;
+    color:#0367c5;
+}
+
+.account-setting-title{
+    margin-top: .5rem;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.account-card{
+    padding:.75rem;
+    border-radius: 10px;
+    border: 1px solid #d8e1f3;
+    flex: 1;
+}
+
+.account .edit{
+    border: 1px solid #d8e1f3;
+    color:#707070;
+    background-color: transparent;
+}
+
+.account .action-btn{
+    padding:.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 100vh;
+    cursor: pointer;
+}
+
+.account .action-btn img{
+    height: 15px;
+    margin-left: 5px;
+}
+
+.account .title{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.account .action-buttons{
+    display: flex;
+    gap: .5rem;
+}
+
+.account .save{
+    border: none;
+    background-color: #0367c5;
+    color:white;
+}
+
+.account .cancel{
+    color: white;
+    border: none;
+    background-color: #202020;
+}

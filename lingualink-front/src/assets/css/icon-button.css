@@ -1,0 +1,16 @@
+.icon-button{
+    display: flex;
+    align-items: center;
+    gap:7px;
+    font-size: 15px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #adadad;
+    padding:5px 20px;
+    border-radius: 7px;
+}
+
+.icon-button img{
+    width: 30px;
+}
+

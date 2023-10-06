@@ -1,0 +1,37 @@
+.room-home{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap:.5rem;
+}
+
+.room-home .room-card{
+    width: 150px;
+    padding:.75rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.room-home .room-card.create{
+    background: linear-gradient(#9cbaf3, #008cff, #006eff);
+    color: white;
+}
+
+.room-home .room-card.manage{
+    background: linear-gradient(#535353, #2b2a2a, #181717);
+    color: white;
+}
+
+.room-home .room-card.join{
+    background: linear-gradient(#b3b1b1, #929191, #616060);
+    color:white;
+}
+
+.room-home .room-card .action{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}

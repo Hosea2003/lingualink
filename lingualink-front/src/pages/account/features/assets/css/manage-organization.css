@@ -1,0 +1,59 @@
+.organization-detail .information{
+    display: grid;
+    grid-template-columns: 130px auto;
+    row-gap: 1rem;
+    margin-bottom: 1rem;
+}
+.organization-detail .information .label{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.manage-organization .members{
+    margin-top: 1rem;
+}
+
+.manage-organization .members .view-btn{
+    border: none;
+    background-color: #202020;
+    margin-left: .5rem;
+    color: white;
+    padding: .5rem 1.2rem;
+    border-radius: 100vh;
+}
+
+.manage-organization .members-result{
+    height: 300px;
+}
+
+.invite-user{
+    display: flex;
+    gap:.5rem;
+    padding-block: .45rem;
+}
+
+.invite-user img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.invite-user .display{
+    flex: 1;
+    font-size: 14px;
+}
+
+.invite-user .send-invitation{
+    background-color: #E1E8F6;
+    color: #0367c5;
+    font-weight: bold;
+    font-size: 14px;
+    padding:.5rem 1rem;
+    border-radius: 7px;
+    border: none;
+}
+
+.invite-user .send-invitation:disabled{
+    background-color: #d3d3d3;
+    color: #202020;
+}

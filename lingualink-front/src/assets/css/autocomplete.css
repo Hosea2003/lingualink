@@ -1,0 +1,100 @@
+.autocomplete{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.suggestion{
+    box-shadow: 1px 3px 2px 0px #d3d3d3;
+    position: absolute;
+    top: 100%;
+    left:0;
+    right: 0;
+    display: none;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: white;
+}
+
+.suggestion .li-item{
+    list-style: none;
+    position: relative;
+}
+
+.suggestion.show{
+    top:100%;
+    display:block;
+}
+
+.loader{
+    display: flex;
+    justify-content: center;
+    padding:.5rem;
+}
+
+.autocomplete-text{
+    padding:.5rem;
+    cursor: pointer;
+}
+
+.autocomplete-text:hover{
+    background-color: #3a3a3a;
+    color: white;
+}
+
+.option-selected{
+    position: absolute;
+    top:50%;
+    left:10px;
+    transform: translateY(-50%);
+    padding:.15rem 3px .15rem .5rem;
+    background-color: #3a3a3a;
+    border-radius: 100vh;
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+    align-items: center;
+}
+
+.option-selected span{
+    font-size: 13px;
+    color: white;
+}
+
+.option-selected .cancel-btn{
+    border: none;
+    background-color: #d3d3d3;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+    color:#4d4c4c;
+    line-height: 10px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.option-selected .cancel-btn:hover{
+    background-color: #ff6a6a;
+    color:white;
+}
+
+.autocomplete-image{
+    display: flex;
+    gap:.4rem;
+    padding:.5rem;
+    cursor: pointer;
+    align-items: center;
+}
+
+.autocomplete-image:hover{
+    background-color: #e6e5e5;
+}
+
+.autocomplete-image img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

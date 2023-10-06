@@ -1,0 +1,30 @@
+.people-result{
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 300px;
+}
+
+.choose-user{
+    display: flex;
+}
+
+.choose-user .item{
+    flex: 1;
+}
+
+.invite-actions{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: .5rem;
+}
+
+.invite-actions .invite{
+    border: none;
+    font-size: 15px;
+    padding: .65rem 1.5rem;
+    background: #202020;
+    color: white;
+    border-radius: 100vh;
+}

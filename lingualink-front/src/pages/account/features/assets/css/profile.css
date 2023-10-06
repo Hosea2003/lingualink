@@ -1,0 +1,40 @@
+.profile-picture{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-picture .left{
+    display: flex;
+    gap:.5rem;
+    align-items: center;
+}
+
+.profile-picture .picture{
+    width: 75px;
+    border-radius: 15px;
+}
+
+.profile-picture .name{
+    font-weight: 500;
+}
+
+.profile-picture .email{
+    color: #718cca;
+    font-size: 14px;
+}
+
+.image-container{
+    position: relative;
+}
+
+.image-container #pf{
+    display: none;
+}
+
+.image-container label{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

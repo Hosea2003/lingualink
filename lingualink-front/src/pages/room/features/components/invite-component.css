@@ -1,0 +1,34 @@
+.invite-user-component{
+    display: flex;
+    align-items: center;
+}
+
+.invite-user-component .item{
+    flex: 1;
+}
+
+.invite-user-component .inner{
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    border: none;
+    font-weight: 500;
+    border-radius: 7px;
+}
+
+.invite-user-component .invitation-sent{
+    gap:.2rem;
+    background-color: #cccbcb;
+    color: #383838;
+}
+
+.invite-user-component .invitation-sent img{
+    width: 20px;
+}
+
+.invite-user-component .send-invitation{
+    background-color: #dbebfc;
+    color: #0378fd;
+}

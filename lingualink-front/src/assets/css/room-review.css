@@ -1,0 +1,45 @@
+.room-review{
+    display: flex;
+    flex-direction: column;
+    padding:1rem;
+    justify-content: center;
+}
+
+.room-review .name{
+    font-size: 2.3rem;
+    margin: 0 auto;
+    margin-bottom: .5rem;
+}
+
+.room-review .room-body{
+    display: flex;
+    flex-direction: row;
+}
+
+.description-container{
+    width: 70%;
+}
+
+.description-container img{
+    width: 100%;
+}
+
+.languages-info{
+    margin-left: 1rem;
+    /* box-shadow: 2px 2px 5px 3px #d3d3d3; */
+    padding:1rem;
+}
+
+.languages-info .intro{
+    margin-block: 0 .5rem;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.manage-room-link{
+    text-decoration: none;
+    color: white;
+    padding: .4rem .7rem;
+    border-radius: 100vh;
+    background-color: #0367c5;
+}

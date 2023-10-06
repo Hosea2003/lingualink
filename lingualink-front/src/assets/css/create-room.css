@@ -1,0 +1,84 @@
+.create-room{
+    width: 80%;
+    margin:1.5rem auto;
+    max-width: 700px;
+}
+
+.basic-info{
+    display: grid;
+    grid-template-columns: 100px auto;
+    row-gap: 10px;
+}
+
+.basic-info .description{
+    border: 1px solid #d3d3d3;
+    border-radius: 7px;
+    padding:10px;
+    outline: none;
+}
+
+.basic-info .schedule{
+    display: flex;
+    gap:5px;
+    grid-column-start: 2;
+}
+
+.insert-language{
+    margin-top: 1rem;
+}
+
+.create-room .title{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.create-room .insert-language .basic-info,
+.create-room .invite-people.basic-info{
+    align-items: center;
+}
+
+
+
+.create-room .add{
+    border:none;
+    margin-left: 1rem;
+    background-color: #0367c5;
+    padding:.5rem 1.3rem;
+    font-size: 14px;
+    color: white;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.create-room .type-of{
+    display: flex;
+}
+
+.invite-people{
+    margin-top: 1rem;
+}
+
+.invite-people .content{
+    display: flex;
+    gap:1rem;
+    align-items: center;
+}
+
+.invite-people .content .invite-btn{
+    border:none;
+    background-color: #0367c5;
+    padding:.5rem 1.3rem;
+    font-size: 14px;
+    color: white;
+    border-radius: 5px;
+}
+
+.create-room .create-room-btn{
+    border:none;
+    background-color: #0367c5;
+    padding:.5rem 1.3rem;
+    font-size: 14px;
+    color: white;
+    border-radius: 100vh;
+    margin-top: 1.5rem;
+}

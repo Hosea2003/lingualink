@@ -1,0 +1,36 @@
+.action-buttons{
+    display: flex;
+    gap: .5rem;
+}
+
+.action-buttons .edit{
+    border: 1px solid #d8e1f3;
+    color:#707070;
+    background-color: transparent;
+}
+
+.action-buttons .save{
+    border: none;
+    background-color: #0367c5;
+    color:white;
+}
+
+.action-buttons .cancel{
+    color: white;
+    border: none;
+    background-color: #202020;
+}
+
+.action-buttons button{
+    padding:.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 100vh;
+    cursor: pointer;
+}
+
+.action-buttons button img{
+    height: 15px;
+    margin-left: 5px;
+}

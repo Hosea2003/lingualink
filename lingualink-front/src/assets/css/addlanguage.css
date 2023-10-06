@@ -1,0 +1,26 @@
+.add-language{
+    margin-top: .75rem;
+    width: fit-content;
+    display: flex;
+    gap:.4rem;
+    align-items:self-end;
+}
+
+.add-language .remove-btn, .add-language .confirm-language{
+    background-color: #fa5f5f;
+    border:none;
+    width: fit-content;
+    border-radius: 10px;
+    padding: .45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-language .confirm-language{
+    background-color: #0367c5;
+}
+
+.add-language .remove-btn img,.add-language .confirm-language img{
+    height: 25px;
+}

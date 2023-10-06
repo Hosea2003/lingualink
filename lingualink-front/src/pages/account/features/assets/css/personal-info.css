@@ -1,0 +1,25 @@
+.personal-info{
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.personal-info .head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.personal-info .information{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 7fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}

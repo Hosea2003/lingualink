@@ -1,0 +1,15 @@
+.editable-component{
+    border: none;
+    outline: none;
+    background: transparent;
+    width: fit-content;
+}
+
+.editable-component:disabled{
+    color: #718cca;
+}
+
+.editable-component.editable{
+    border-bottom: 1px solid #718cca;
+    color: grey;
+}

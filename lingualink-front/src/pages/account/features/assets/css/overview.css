@@ -1,0 +1,62 @@
+.organization-overview{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.organization-overview .create-organization{
+    background-color: #0367c5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .3rem .7rem;
+    gap: .7rem;
+    color: white;
+    text-decoration: none;
+}
+
+.organization-overview .create-organization img{
+    width: 15px;
+}
+
+.organization-overview .create-head{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.organization-overview .organizations{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    overflow-x: auto;
+    overflow-x: auto;
+}
+
+.organization-component{
+    min-width: 150px;
+    text-align: center;
+    padding:.35rem;
+    max-width: 250px;
+    min-height: 150px;
+    flex: 1;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f6f8;
+    gap: .3rem;
+}
+
+.organization-component img{
+    flex: 1;
+}
+
+.organization-component .navigate-to-organisation{
+    text-decoration: none;
+    color: #718cca;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.organization-component .navigate-to-organisation:hover{
+    text-decoration: underline;
+}

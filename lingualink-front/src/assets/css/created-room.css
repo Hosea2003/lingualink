@@ -1,0 +1,23 @@
+.created-rooms{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.created-room{
+    display: flex;
+    padding: .5rem 0;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.created-room span{
+    flex: 1;
+}
+
+.created-room .manage{
+    background: linear-gradient(to left,#83abf3, #008cff, #006eff);
+    text-decoration: none;
+    border-radius: 100vh;
+    padding:.3rem 1rem;
+    color: white;
+    font-size: 13px;
+}

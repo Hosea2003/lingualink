@@ -1,0 +1,61 @@
+.price{
+    min-width: 200px;
+    max-width: 500px;
+    flex: 1;
+}
+
+.price .head{
+    background: radial-gradient(#002C6E ,#001C50);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    padding-block:1.2rem;
+}
+
+.price .head .subscription{
+    font-size: 25px;
+}
+
+.price .head .price-value{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.price .head .action{
+    background-color: white;
+    padding-block: 1rem;
+}
+
+.price .buy-btn{
+    background:linear-gradient(#002C6E ,#001C50);
+    padding: .5rem 2rem;
+    border: none;
+    font-size: 16px;
+    color: white;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 10px 0 10px 0;
+    cursor: pointer;
+}
+
+.price .service{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding:1rem;
+    gap:1rem;
+    background-color: white;
+    border-left: 1px solid #c9c8c8;
+    border-bottom: 1px solid #c9c8c8;
+    border-right: 1px solid #c9c8c8;
+}
+
+.price .service .service-item{
+    display: flex;
+    align-items: center;
+    gap:.5rem;
+}
+
+.price .service .service-item img{
+    width: 15px;
+}

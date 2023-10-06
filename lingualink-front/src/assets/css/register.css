@@ -1,0 +1,67 @@
+.register{
+    display: flex;
+}
+
+.register-form{
+    box-shadow: 2px 2px 3px 3px #d3d3d3;
+    width: 700px;
+    display: flex;
+    padding:10px;
+    border-radius: 7px;
+    margin:4rem auto;
+    gap: 1rem;
+}
+
+.register-form .left-image{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.register-form .left-image img{
+    width: 200px;
+}
+
+.register-form .left-image .have-account{
+    font-size: 13px;
+}
+
+.register-form .left-image .login-link{
+    font-size: 14px;
+    color: white;
+    background: #0367c5;
+    padding: .35rem 1rem;
+    border-radius: 100vh;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.personal-info{
+    margin-top: 10px;
+    gap: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-info .name{
+    display: flex;
+    gap: 1rem;
+}
+
+.personal-info .gender{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.register .register-btn{
+    border:none;
+    background-color: #0367c5;
+    font-size: 16px;
+    color:white;
+    padding:.5rem 3rem;
+    margin: 1rem auto;
+    cursor: pointer;
+}
