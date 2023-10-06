@@ -56,3 +56,9 @@ To run the frontend
   cd lingualink-front
   npm start
 ```
+
+## Preview
+![Login](./preview/lingualink.png)
+![Register](./preview/register.png)
+![AddLanguage](./preview/add-language.png)
+![Preview](./preview/preview.png)
